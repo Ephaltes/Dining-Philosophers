@@ -26,8 +26,7 @@ public class Program
             //     forks[i],
             //     forks[(i + 1) % philosopherCount],
             //     maxThinkingTime,
-            //     maxEatingTime,
-            //     stopwatch
+            //     maxEatingTime
             // );
             
             Philosopher philosopher = new Philosopher(
