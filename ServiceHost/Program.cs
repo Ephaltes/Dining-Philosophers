@@ -40,7 +40,7 @@ public class Program
         
             
             Thread thread = new(() => {
-                for(int j=0;j<50;j++)
+                for(int j=0;j<100;j++)
                     philosopher.Eat();
             });
         
